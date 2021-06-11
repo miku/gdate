@@ -1,0 +1,2 @@
+# gdate
+Sample date program.
