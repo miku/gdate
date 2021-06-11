@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"time"
 
@@ -15,4 +16,6 @@ func main() {
 		log.Println("that's weird")
 	}
 	color.Green(gdate.Preamble() + t)
+	s, _ := gdate.Calendar()
+	fmt.Println(s)
 }
