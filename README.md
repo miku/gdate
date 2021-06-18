@@ -1,2 +1,1 @@
-# gdate
-Sample date program.
+# Sample project
